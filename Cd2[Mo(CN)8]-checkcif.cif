@@ -1,0 +1,268 @@
+##############################################################################
+###      FullProf-generated CIF output file  (version: December 2016)      ###
+###      Template of CIF submission form for structure report              ###
+##############################################################################
+ 
+
+#=============================================================================
+ data_global
+#=============================================================================
+
+ 
+# 1. SUBMISSION DETAILS
+ 
+_publ_contact_author_name            'Edilso Reguera'
+_publ_contact_author_address            # Address of author for correspondence
+; 
+Instituto Politecnico Nacional
+CICATA, Unidad Legaria
+Legaria 694
+Col. Irrigacion
+Ciudad de Mexico
+Mexico
+C.P. 11500
+;
+_publ_contact_author_email            edilso.reguera@gmail.com
+ 
+#=============================================================================
+# If more than one structure is reported, the remaining sections should be 
+# completed per structure. For each data set, replace the '?' in the
+# data_? line below by a unique identifier.
+ 
+data_Cd2(H2O)4[Mo(CN)8].2H2O
+ 
+#=============================================================================
+ 
+# 5. CHEMICAL DATA
+ 
+_chemical_name_systematic
+; Cadmium Octacyanomolybdate (IV) hydrate
+;
+_chemical_formula_moiety          'C16 Cd4 Mo2 N16 O8, 4(O)'
+_chemical_formula_sum             'C16 Cd4 Mo2 N16 O12'
+_chemical_formula_weight          1249.84
+
+loop_
+    _atom_type_symbol               
+    _atom_type_scat_Cromer_Mann_a1 
+    _atom_type_scat_Cromer_Mann_b1 
+    _atom_type_scat_Cromer_Mann_a2 
+    _atom_type_scat_Cromer_Mann_b2 
+    _atom_type_scat_Cromer_Mann_a3 
+    _atom_type_scat_Cromer_Mann_b3 
+    _atom_type_scat_Cromer_Mann_a4 
+    _atom_type_scat_Cromer_Mann_b4 
+    _atom_type_scat_Cromer_Mann_c 
+    _atom_type_scat_dispersion_real 
+    _atom_type_scat_dispersion_imag 
+    _atom_type_scat_source          
+mo     3.70250   0.27720  17.23560   1.09580  12.88760  11.00400
+       3.74290  61.65840   4.38750  -0.19100   2.73500
+ International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+cd    19.22140   0.59460  17.64440   6.90890   4.46100  24.70080
+       1.60290  87.48250   5.06940  -0.07900   4.65300
+ International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+o      3.04850  13.27710   2.28680   5.70110   1.54630   0.32390
+       0.86700  32.90890   0.25080   0.04700   0.03200
+ International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+c      2.31000  20.84390   1.02000  10.20750   1.58860   0.56870
+       0.86500  51.65120   0.21560   0.01700   0.00900
+ International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+n     12.21260   0.00570   3.13220   9.89330   2.01250  28.99750
+       1.16630   0.58260 -11.52900   0.02900   0.01800
+ International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+ 
+#=============================================================================
+ 
+# 6. POWDER SPECIMEN AND CRYSTAL DATA
+ 
+_symmetry_cell_setting                Monoclinic
+_symmetry_space_group_name_H-M       'I a'
+_symmetry_space_group_name_Hall      'I -2ya'
+ 
+loop_
+    _symmetry_equiv_pos_as_xyz   #<--must include 'x,y,z'
+'x,y,z'
+'x+1/2,-y,z'
+'x+1/2,y+1/2,z+1/2'
+'x,-y+1/2,z+1/2'
+ 
+_cell_length_a                       11.8123(6)
+_cell_length_b                       12.2011(5)
+_cell_length_c                       13.372(5)
+_cell_angle_alpha                    90.0000
+_cell_angle_beta                     91.91(3)
+_cell_angle_gamma                    90.0000
+_cell_volume                         1926.1(3)
+_cell_formula_units_Z                2
+_cell_measurement_temperature        300
+
+_exptl_crystal_density_diffrn        2.155
+_exptl_crystal_F_000                 1160.0
+
+
+#=============================================================================
+ 
+# 7. EXPERIMENTAL DATA
+ 
+_diffrn_ambient_temperature          300
+_diffrn_source              'X-ray tube'
+_diffrn_radiation_type     'CuKa'  
+_diffrn_source_target       Cu
+ 
+_diffrn_radiation_monochromator      ?
+_diffrn_measurement_device_type      'D8-Advance'
+_diffrn_measurement_method           ?
+_diffrn_detector_area_resol_mean     ? 
+_diffrn_detector                     ?
+_diffrn_detector_type                'eyelink'
+_pd_meas_scan_method      ?   # options are 'step', 'cont',
+                              # 'tof', 'fixed' or
+                              # 'disp' (= dispersive)
+_pd_meas_special_details
+;  ?
+;
+ 
+#  The following four items give details of the measured (not processed)
+#  powder pattern.  Angles are in degrees.
+ 
+_pd_meas_number_of_points         3757
+_pd_meas_2theta_range_min         6.11801
+_pd_meas_2theta_range_max         79.99139
+_pd_meas_2theta_range_inc         0.019674
+ 
+#=============================================================================
+ 
+# 8. REFINEMENT DATA
+ 
+ 
+#  The following profile R-factors are NOT CORRECTED for background
+#  The sum is extended to all non-excluded points.
+#  These are the current CIF standard
+ 
+_pd_proc_ls_prof_R_factor                8.6525
+_pd_proc_ls_prof_wR_factor              11.8129
+_pd_proc_ls_prof_wR_expected             2.6038
+ 
+#  Items related to LS refinement
+ 
+_refine_ls_R_I_factor                20.9757
+_refine_ls_goodness_of_fit_all        1.564
+_refine_ls_shift/su_max               0.002
+_refine_ls_number_reflns                   757
+_refine_ls_number_parameters                 1
+_refine_ls_number_restraints                 0
+ 
+# The following four items apply to angular dispersive measurements.
+# 2theta minimum, maximum and increment (in degrees) are for the 
+# intensities used in the refinement.
+ 
+_pd_proc_2theta_range_min                6.1180
+_pd_proc_2theta_range_max               79.9914
+_pd_proc_2theta_range_inc              0.019674
+_pd_proc_wavelength                    1.540562
+ 
+_pd_block_diffractogram_id        ?  # The id used for the block containing
+                                     # the powder pattern profile (section 11)
+ 
+# Give appropriate details in the next two text fields.
+ 
+_pd_proc_info_excluded_regions    ?
+_pd_proc_info_data_reduction      ?
+ 
+# The following items are used to identify the programs used.
+ 
+_computing_data_collection           ?
+_computing_structure_solution        ?
+_computing_structure_refinement      'FULLPROF (Rodriguez-Carvajal, 2022)'
+_computing_molecular_graphics        'DIAMOND (Branderbug, 2022)'
+_computing_publication_material      ?
+ 
+#=============================================================================
+ 
+# 9. ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+ 
+loop_
+    _atom_site_label
+    _atom_site_fract_x
+    _atom_site_fract_y
+    _atom_site_fract_z
+    _atom_site_U_iso_or_equiv
+    _atom_site_occupancy
+    _atom_site_adp_type
+    _atom_site_type_symbol
+ Mo  0.15510  0.23810  0.55150  0.03800  1.00000 Uiso Mo    
+ Cd1  0.48780  0.42580  0.30870  0.03800  1.00000 Uiso Cd    
+ Cd2  0.35960 -0.0480  0.30080  0.03800  1.00000 Uiso Cd    
+ O1  0.36280  0.55270  0.28770  0.03800  1.00000 Uiso O     
+ O2  0.61280  0.29900  0.32960  0.03800  1.00000 Uiso O     
+ O3  0.48180  0.05590  0.37670  0.03800  1.00000 Uiso O     
+ O4  0.23740 -0.1518  0.22490  0.03800  1.00000 Uiso O     
+ C1  0.21530  0.11650  0.45040  0.03800  1.00000 Uiso C     
+ N1  0.24860  0.04610  0.40240  0.03800  1.00000 Uiso N     
+ C2  0.30160  0.30680  0.47440  0.03800  1.00000 Uiso C     
+ N2  0.37970  0.34230  0.43700  0.03800  1.00000 Uiso N     
+ C3  0.29720  0.30490  0.14830  0.03800  1.00000 Uiso C     
+ N3  0.37970  0.33160  0.19260  0.03800  1.00000 Uiso N     
+ C4  0.19350  0.39080  0.62870  0.03800  1.00000 Uiso C     
+ N4  0.21420  0.47200  0.66910  0.03800  1.00000 Uiso N     
+ C5  0.02920  0.27160  0.66130  0.03800  1.00000 Uiso C     
+ N5 -0.0378  0.28930  0.71970  0.03800  1.00000 Uiso N     
+ C6  0.58930  0.64610  0.44510  0.03800  1.00000 Uiso C     
+ N6  0.54780  0.57930  0.39320  0.03800  1.00000 Uiso N     
+ C7  0.00100  0.17790  0.47410  0.03800  1.00000 Uiso C     
+ N7 -0.0822  0.15000  0.43610  0.03800  1.00000 Uiso N     
+ C8  0.61940  0.57840  0.12170  0.03800  1.00000 Uiso C     
+ N8  0.60310  0.49580  0.15540  0.03800  1.00000 Uiso N     
+ O7  0.75240  0.33208  1.08226  0.03800  1.00000 Uiso O     
+ O6  1.09443  0.80423  1.09850  0.03800  1.00000 Uiso O     
+ 
+# Note: if the displacement parameters were refined anisotropically
+# the U matrices should be given as for single-crystal studies.
+ 
+#=============================================================================
+ 
+# 10. DISTANCES AND ANGLES / MOLECULAR GEOMETRY 
+ 
+_geom_special_details                ?
+ 
+loop_
+    _geom_bond_atom_site_label_1  
+    _geom_bond_atom_site_label_2  
+    _geom_bond_site_symmetry_1    
+    _geom_bond_site_symmetry_2    
+    _geom_bond_distance           
+    _geom_bond_publ_flag          
+  Mo  C1   . . 2.1440(1)  y
+ Mo  C2   . .  2.2090(1) y
+ Mo C4   . . 2.171(1)  y
+ Mo C5   . .  2.163(1) y
+ Mo C7   . . 2.190(1)  y
+ 
+ 
+loop_
+_geom_angle_atom_site_label_1 
+_geom_angle_atom_site_label_2 
+_geom_angle_atom_site_label_3 
+_geom_angle_site_symmetry_1   
+_geom_angle_site_symmetry_2   
+_geom_angle_site_symmetry_3   
+_geom_angle                   
+_geom_angle_publ_flag         
+ C1 Mo C2   . . .   71.75(3) y
+ C1 Mo C7   . . .   75.99(3) y
+ C1 Mo C4   . . .   145.61(4) y
+ C1 Mo C5   . . .   143.95(4) y
+
+ 
+#=============================================================================
+ 
+#=============================================================================
+# Additional structures (last six sections and associated data_? identifiers) 
+# may be added at this point.                                                 
+#=============================================================================
+ 
+# The following lines are used to test the character set of files sent by     
+# network email or other means. They are not part of the CIF data set.        
+# abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789              
+# !@#$%^&*()_+{}:"~<>?|\-=[];'`,./ 
